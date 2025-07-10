@@ -13,7 +13,8 @@ const state = reactive<{message: string}>({
     <router-link to="/">Trang chủ</router-link> |
     <router-link to="/about">Giới thiệu</router-link> |
     <router-link to="/counter">Counter App</router-link> | 
-    <router-link to="/todoapp">Todo App</router-link>
+    <router-link to="/todoapp">Todo App</router-link> |
+    <router-link to="/expenseapp">Expense Tracker App</router-link>
   </nav>
   
   <router-view /> 

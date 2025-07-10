@@ -27,5 +27,6 @@ export const useTodoStore = defineStore('todo', {
         remove(id: number) {
             this.todos = this.todos.filter(t => t.id !== id)
         }
-    }
+    },
+    persist: true
 })
